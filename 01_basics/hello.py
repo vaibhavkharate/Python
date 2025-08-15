@@ -9,3 +9,18 @@ def greet(name):
     print("Hello..!", name)
 
 greet("Alice")
+
+
+# some commands of shell
+# import os
+# os.getcwd()
+
+# import sys
+# sys.platform
+
+# from importlib import reload
+# reload(hello)
+
+hello_one = "karan"
+hello_two = "jay"
+hello_three = "rahul"
