@@ -1,8 +1,8 @@
-class Car:
+class Car:  # always keep class name in camel case
     total_car = 0
 
-    def __init__(self, brand, model):
-        self.__brand = brand
+    def __init__(self, brand, model): # __init__ is a constructor , brand and model are parameters
+        self.__brand = brand #here self.__brand is a private variable the self keyword is used to access instance variables
         self.__model = model
         Car.total_car += 1
 
